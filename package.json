@@ -1,0 +1,32 @@
+{
+  "name": "command-loader-fisherman",
+  "version": "1.0.0",
+  "description": "Load command from files to fisherman",
+  "main": "./lib/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxerbox/command-loader-fisherman.git"
+  },
+  "keywords": [
+    "Fisherman",
+    "command",
+    "framework",
+    "loader",
+    "plugin",
+    "middleware"
+  ],
+  "author": "Simon Sassi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxerbox/command-loader-fisherman/issues"
+  },
+  "homepage": "https://github.com/maxerbox/command-loader-fisherman#readme",
+  "dependencies": {
+    "defaults": "^1.0.3",
+    "file-system": "^2.2.2",
+    "path": "^0.12.7"
+  }
+}
