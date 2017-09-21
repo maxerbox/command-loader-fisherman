@@ -1,6 +1,6 @@
 {
   "name": "command-loader-fisherman",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Load command from files to fisherman",
   "main": "./lib/index",
   "scripts": {
@@ -27,6 +27,7 @@
   "dependencies": {
     "defaults": "^1.0.3",
     "file-system": "^2.2.2",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "require-all": "^2.2.0"
   }
 }
