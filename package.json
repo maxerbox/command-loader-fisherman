@@ -1,6 +1,6 @@
 {
   "name": "command-loader-fisherman",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Load command from files to fisherman",
   "main": "./lib/index",
   "scripts": {

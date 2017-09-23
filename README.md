@@ -25,7 +25,7 @@ As you can see, you initialize the CommandLoader with a directory, **use path.re
 Commands are loaded once you initialize middlewares with fisherman.
 
 Each commands should be in a subfolder, named like the register name.
-A `_register.json` as to be present in each register directory
+**A `_register.json` as to be present in each register directory**
 
 Tree example (C = commands folder):
 
@@ -79,7 +79,7 @@ module.exports = {
 
 ### _register.json file
 
-This file contain register properties:
+This file contain register properties, **it has to appear in each register directory**:
 
 There are only 3 properties:
 
@@ -90,3 +90,13 @@ There are only 3 properties:
 | description | Register description     |
 
 *All those property have default value = `null`*
+
+Example:
+
+```json
+{
+    "key": "fun",
+    "name": "fun",
+    "description": "commands for user fun time"
+}
+```
